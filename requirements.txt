@@ -1,0 +1,53 @@
+# FastAPI and web server
+fastapi==0.95.1
+uvicorn==0.22.0
+websockets==11.0.3
+python-multipart==0.0.6
+python-dotenv==1.0.0
+pydantic==1.10.7
+
+# MongoDB
+motor==3.1.2
+pymongo==4.3.3
+
+# Asterisk AMI
+panoramisk==1.2
+
+# Google Cloud
+google-cloud-speech==2.19.0
+google-cloud-texttospeech==2.14.1
+
+# HTTP client
+aiohttp==3.8.4
+requests==2.29.0
+
+# Authentication and security
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+email-validator==2.0.0
+
+# Utilities
+aiofiles==0.8.0
+loguru==0.7.0
+
+# Testing
+pytest==7.4.3
+
+# Indic-TTS dependencies (individual packages instead of GitHub repo)
+torch>=1.7.0
+numpy>=1.19.5
+scipy>=1.5.4
+pydub>=0.25.1
+soundfile>=0.10.3
+librosa>=0.8.0
+indic-nlp-library>=0.9.0
+modelscope>=1.5.0
+
+# Document processing dependencies
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+openpyxl>=3.1.2
+pandas>=2.0.0
+nltk>=3.8.1
+scikit-learn>=1.2.2 
